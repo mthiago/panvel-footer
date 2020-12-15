@@ -12,7 +12,7 @@ import Newsletter from './components/newsletter/Newsletter.vue'
 export default {
   name: 'App',
   components: {
-    Infos, Newsletter
+    Infos
   }
 }
 </script>
