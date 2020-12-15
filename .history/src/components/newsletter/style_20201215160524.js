@@ -11,7 +11,6 @@ const Background = styled.div`
 const Title = styled.span`
     margin-top: 15px;
     font-size: 2em;
-    width: 100%;
 `;
 
 const Description = styled.span`

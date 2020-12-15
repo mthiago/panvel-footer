@@ -1,7 +1,9 @@
 <template>
     <Background>
         <Title>Cadastre-se</Title>
-        <Description>Fique por dentro de desconto, promoções e ofertas</Description>
+        <Description>
+          Fique por dentro de desconto, promoções e ofertas
+        </Description>
     </Background>
 </template>
 
