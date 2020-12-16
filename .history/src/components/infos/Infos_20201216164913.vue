@@ -1,25 +1,39 @@
 <template>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
   <Container>
     <Content>
       <Items>
         <Item>
-            <Icon class="material-icons">important_devices</Icon>
+          <Logo>
+            
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">local_shipping</Icon>
+          <Logo>
+            <i class="material-icons">&#xe853;</i>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">store</Icon>
+          <Logo>
+            <i class="material-icons">&#xe853;</i>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">restore</Icon>
+          <Logo>
+            <i class="material-icons">&#xe853;</i>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">credit_card</Icon>
+          <Logo>
+            <i class="material-icons">&#xe853;</i>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
       </Items>
@@ -33,12 +47,12 @@
 </template>
 
 <script>
-import { Container, Content, Item, Logo, Description, History, Items, Icon } from './style.js'
+import { Container, Content, Item, Logo, Description, History, Items } from './style.js'
 
 export default {
   name: 'Infos',
   components: {
-    Container, Content, Item, Logo, Description, History, Items, Icon
+    Container, Content, Item, Logo, Description, History, Items
   }
 }
 </script>

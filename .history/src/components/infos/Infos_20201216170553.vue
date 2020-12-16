@@ -3,23 +3,33 @@
     <Content>
       <Items>
         <Item>
+          <Logo>
             <Icon class="material-icons">important_devices</Icon>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">local_shipping</Icon>
+          <Logo>
+            <span class="material-icons">local_shipping</span>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">store</Icon>
+          <Logo>
+            <span class="material-icons">store</span>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">restore</Icon>
+          <Logo>
+            <span class="material-icons">restore</span>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">credit_card</Icon>
+          <Logo>
+            <span class="material-icons">credit_card</span>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
       </Items>

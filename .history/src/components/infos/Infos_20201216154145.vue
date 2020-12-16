@@ -1,28 +1,38 @@
 <template>
   <Container>
     <Content>
-      <Items>
+      <ItemsContent>
         <Item>
-            <Icon class="material-icons">important_devices</Icon>
+          <Logo>
+            <i class="material-icons">&#xe853;</i>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">local_shipping</Icon>
+          <Logo>
+            <i class="material-icons">&#xe853;</i>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">store</Icon>
+          <Logo>
+            <i class="material-icons">&#xe853;</i>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">restore</Icon>
+          <Logo>
+            <i class="material-icons">&#xe853;</i>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">credit_card</Icon>
+          <Logo>
+            <i class="material-icons">&#xe853;</i>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
-      </Items>
+      </ItemsContent>
       <History>
         Em mais de 40 anos de história, a PanVel é reconhecida como sinônimo de bem-estar e beleza, onde os clientes 
         não encontram apenas uma farmácia que comercializa medicamentos, mas também um espaço com amplo portfólio de 
@@ -33,12 +43,12 @@
 </template>
 
 <script>
-import { Container, Content, Item, Logo, Description, History, Items, Icon } from './style.js'
+import { Container, Content, Item, Logo, Description, History, ItemsContent } from './style.js'
 
 export default {
   name: 'Infos',
   components: {
-    Container, Content, Item, Logo, Description, History, Items, Icon
+    Container, Content, Item, Logo, Description, History, ItemsContent
   }
 }
 </script>

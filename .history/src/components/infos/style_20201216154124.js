@@ -14,7 +14,7 @@ const Content = styled.div`
     padding: 16px;
 `;
 
-const Items = styled.div`
+const ItemsContent = styled.div`
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 `;
@@ -23,6 +23,8 @@ const Item = styled.div`
     display: grid;
     grid-template-columns: 20% 80%;
 `;
+
+const Logo = styled.div``;
 
 const Description = styled.div`
     line-height: 1.4;
@@ -35,8 +37,4 @@ const History = styled.div`
     text-align: left;
 `;
 
-const Icon = styled.span`
-    font-size: 30px!important;
-`;
-
-export { Container, Content, Item, Description, History, Items, Icon };
+export { Container, Content, Item, Logo, Description, History, ItemsContent };

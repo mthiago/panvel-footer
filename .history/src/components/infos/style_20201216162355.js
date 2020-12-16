@@ -1,4 +1,5 @@
 import styled from 'vue-styled-components';
+import ImportantDevicesIcon from '@material-ui/icons/ImportantDevices';
 
 const Container = styled.div`
     color: #909090;
@@ -24,6 +25,8 @@ const Item = styled.div`
     grid-template-columns: 20% 80%;
 `;
 
+const Logo = styled.div``;
+
 const Description = styled.div`
     line-height: 1.4;
     padding-left: 15px;
@@ -35,8 +38,8 @@ const History = styled.div`
     text-align: left;
 `;
 
-const Icon = styled.span`
-    font-size: 30px!important;
+const IconeTeste = styled(ImportantDevicesIcon)`
+    width: 100%;
 `;
 
-export { Container, Content, Item, Description, History, Items, Icon };
+export { Container, Content, Item, Logo, Description, History, Items, IconeTeste };

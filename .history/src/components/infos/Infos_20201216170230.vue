@@ -3,23 +3,33 @@
     <Content>
       <Items>
         <Item>
-            <Icon class="material-icons">important_devices</Icon>
+          <Logo>
+            <span class="material-icons">important_devices</span>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">local_shipping</Icon>
+          <Logo>
+            <span class="material-icons">local_shipping</span>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">store</Icon>
+          <Logo>
+            <span class="material-icons">store</span>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">restore</Icon>
+          <Logo>
+            <span class="material-icons">restore</span>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
         <Item>
-            <Icon class="material-icons">credit_card</Icon>
+          <Logo>
+            <span class="material-icons">credit_card</span>
+          </Logo>
           <Description>Preços exclusivos para site e app</Description>
         </Item>
       </Items>
@@ -33,12 +43,12 @@
 </template>
 
 <script>
-import { Container, Content, Item, Logo, Description, History, Items, Icon } from './style.js'
+import { Container, Content, Item, Logo, Description, History, Items } from './style.js'
 
 export default {
   name: 'Infos',
   components: {
-    Container, Content, Item, Logo, Description, History, Items, Icon
+    Container, Content, Item, Logo, Description, History, Items
   }
 }
 </script>
