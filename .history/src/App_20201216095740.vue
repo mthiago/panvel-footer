@@ -2,7 +2,7 @@
   <div id="app">
     <Infos/>
     <Newsletter/>
-    <Menu/>
+    <Container/>
   </div>
 </template>
 

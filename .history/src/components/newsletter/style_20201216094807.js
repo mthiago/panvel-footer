@@ -6,11 +6,10 @@ const Background = styled.div`
     background-color: #01abbf;
     text-align: center;
     height: 200px;
-    color: white;
 `;
 
 const Title = styled.div`
-    padding-top: 15px;
+    margin-top: 15px;
     font-size: 2em;
     width: 100%;
 `;
