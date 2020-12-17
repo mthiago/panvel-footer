@@ -39,7 +39,7 @@ const HistoryContainer = styled.div`
     padding: 16px;
 `;
 
-const History = styled.p`
+const Historu = styled.p`
     padding-top: 5px;
     text-align: left;
 `;

@@ -36,12 +36,9 @@ const Description = styled.p`
 `;
 
 const HistoryContainer = styled.div`
-    padding: 16px;
-`;
-
-const History = styled.p`
     padding-top: 5px;
     text-align: left;
+    padding: 16px;
 `;
 
 const Icon = styled.i`
@@ -53,4 +50,4 @@ const Delivery = styled.a`
     color: #909090;
 `;
 
-export { Container, Content, Item, DescriptionContainer, HistoryContainer, History, Items, Icon, Description, Delivery };
+export { Container, Content, Item, DescriptionContainer, HistoryContainer, Items, Icon, Description, Delivery };

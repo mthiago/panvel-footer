@@ -16,7 +16,8 @@
           </span>
           <DescriptionContainer>
             <Description>Entrega Grátis 
-              <Delivery href="https://www.panvel.com/panvel/institucional.do?secao=duvidasFrete">(ver regras)</Delivery>
+              <Delivery>asda<Delivery>
+              <a href="https://www.panvel.com/panvel/institucional.do?secao=duvidasFrete">(ver regras)</a>
             </Description>
           </DescriptionContainer>
         </Item>
@@ -33,9 +34,7 @@
             <Icon class="material-icons">restore</Icon>
           </span>
           <DescriptionContainer>
-            <Description>Receba em até 60 minutos 
-              <Delivery href="https://www.panvel.com/panvel/institucional.do?secao=duvidasFrete">(ver regras)</Delivery>
-              </Description>
+            <Description>Receba em até 60 minutos <a href="https://www.panvel.com/panvel/institucional.do?secao=duvidasFrete">(ver regras)</a></Description>
           </DescriptionContainer>
         </Item>
         <Item>
@@ -47,24 +46,22 @@
           </DescriptionContainer>
         </Item>
       </Items>
-      <HistoryContainer>
-        <History>
-          Em mais de 40 anos de história, a <strong><i>PanVel</i></strong> é reconhecida como sinônimo de bem-estar e beleza, onde os clientes 
-          não encontram apenas uma farmácia que comercializa <strong><i>medicamentos</i></strong>, mas também um espaço com amplo portfólio de 
-          <strong><i>higiene</i></strong> e beleza com diversas opções, ambientes planejados e <strong><i>atendimento de qualidade</i></strong>.
-        </History>
-      </HistoryContainer>
+      <History>
+        Em mais de 40 anos de história, a PanVel é reconhecida como sinônimo de bem-estar e beleza, onde os clientes 
+        não encontram apenas uma farmácia que comercializa medicamentos, mas também um espaço com amplo portfólio de 
+        higiene e beleza com diversas opções, ambientes planejados e atendimento de qualidade.
+      </History>
     </Content>
   </Container>
 </template>
 
 <script>
-import { Container, Content, Item, Description, HistoryContainer, History, Items, Icon, DescriptionContainer, Delivery } from './style.js'
+import { Container, Content, Item, Description, History, Items, Icon, DescriptionContainer, Delivery } from './style.js'
 
 export default {
   name: 'Infos',
   components: {
-    Container, Content, Item, Description, HistoryContainer, History, Items, Icon, DescriptionContainer, Delivery
+    Container, Content, Item, Description, History, Items, Icon, DescriptionContainer, Delivery
   }
 }
 </script>

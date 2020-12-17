@@ -5,7 +5,6 @@ const Container = styled.div`
     background-color: #fafafa;
     line-height: 2;
     font-size: 15px;
-    font-family: foco,Open Sans,sans-serif;
 `;
 
 const Content = styled.div`
@@ -20,37 +19,27 @@ const Items = styled.div`
     padding: 16px;
 `;
 
+/* 
 const Item = styled.div`
-    display: flex;
+    float: left;
 `;
+*/
 
-const DescriptionContainer = styled.span`
-    text-align: left;
+const Description = styled.div`
     line-height: 1.4;
     padding-left: 15px;
-    max-width: 70%;
+    text-align: left;
 `;
 
-const Description = styled.p`
-    margin: 0;
-`;
-
-const HistoryContainer = styled.div`
+const History = styled.div`
+    padding-top: 5px;
+    text-align: left;
     padding: 16px;
 `;
 
-const History = styled.p`
-    padding-top: 5px;
-    text-align: left;
-`;
-
-const Icon = styled.i`
+const Icon = styled.span`
     font-size: 30px!important;
+    float: left;
 `;
 
-const Delivery = styled.a`
-    text-decoration: none;
-    color: #909090;
-`;
-
-export { Container, Content, Item, DescriptionContainer, HistoryContainer, History, Items, Icon, Description, Delivery };
+export { Container, Content, Item, Description, History, Items, Icon };

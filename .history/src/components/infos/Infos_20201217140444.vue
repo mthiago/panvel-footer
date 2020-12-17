@@ -49,9 +49,9 @@
       </Items>
       <HistoryContainer>
         <History>
-          Em mais de 40 anos de história, a <strong><i>PanVel</i></strong> é reconhecida como sinônimo de bem-estar e beleza, onde os clientes 
-          não encontram apenas uma farmácia que comercializa <strong><i>medicamentos</i></strong>, mas também um espaço com amplo portfólio de 
-          <strong><i>higiene</i></strong> e beleza com diversas opções, ambientes planejados e <strong><i>atendimento de qualidade</i></strong>.
+        Em mais de 40 anos de história, a <strong><i>PanVel</i></strong> é reconhecida como sinônimo de bem-estar e beleza, onde os clientes 
+        não encontram apenas uma farmácia que comercializa <strong><i>medicamentos</i></strong>, mas também um espaço com amplo portfólio de 
+        <strong><i>higiene</i></strong> e beleza com diversas opções, ambientes planejados e <strong><i>atendimento de qualidade</i></strong>.
         </History>
       </HistoryContainer>
     </Content>
