@@ -20,7 +20,8 @@ const Items = styled.div`
 `;
 
 const Item = styled.div`
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
 `;
 
 const Description = styled.div`
@@ -32,7 +33,6 @@ const Description = styled.div`
 const History = styled.div`
     padding-top: 5px;
     text-align: left;
-    padding: 16px;
 `;
 
 const Icon = styled.span`

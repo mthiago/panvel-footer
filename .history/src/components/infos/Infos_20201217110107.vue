@@ -16,7 +16,7 @@
         </Item>
         <Item>
           <Icon class="material-icons">restore</Icon>
-          <Description>Receba em até 60 minutos <br><a href="https://www.panvel.com/panvel/institucional.do?secao=duvidasFrete">(ver regras)</a></Description>
+          <Description>Receba em até 60 minutos (ver regras)</Description>
         </Item>
         <Item>
           <Icon class="material-icons">credit_card</Icon>

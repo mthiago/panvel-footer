@@ -20,7 +20,8 @@ const Items = styled.div`
 `;
 
 const Item = styled.div`
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
 `;
 
 const Description = styled.div`
