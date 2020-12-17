@@ -22,48 +22,24 @@ const Description = styled.div`
     font-size: 1em;
 `;
 
-const EmailContainer = styled.div`
+const Container = styled.div`
     margin: 0 auto;
     width: 50%;
     text-align: left;
 `;
 
 const InputEmail = styled.input`
-    width: 85%;
+    width: 80%;
     text-align: left;
+    text-transform: none;
     padding: 10px;
     font-size: .8em;
+    border-right: none;
     border-radius: 4px 0 0 4px;
-    height: 30px;
+    height: 50px;
     border: none;
     color: #909090;
     text-transform: uppercase;
-    font-family: foco,Open Sans,sans-serif;
 `;
 
-const ButtonEmail = styled.button`
-    cursor: pointer;
-    width: 15%;
-    padding-top: 8px;
-    padding-bottom: 9px;
-    border-radius: 0 4px 4px 0;
-    background-color: #00bfdf;
-    text-align: center;
-    font-weight: 700;
-    font-size: .938em;
-    height: 50px;
-    color: #fff;
-    border: none;
-`;
-
-const Privacity = styled.a`
-    color: #fff;
-    text-decoration: none;
-    font-size: .8em;
-`;
-
-const Email = styled.div`
-    display: flex;
-`;
-
-export { Background, Title, Description, InputEmail, EmailContainer, ButtonEmail, Privacity, Email };
+export { Background, Title, Description, InputEmail, Container };

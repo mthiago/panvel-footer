@@ -15,12 +15,12 @@
 </template>
 
 <script>
-import { Background, Title, Description, InputEmail, EmailContainer, ButtonEmail, Privacity, Email } from './style.js'
+import { Background, Title, Description, InputEmail, EmailContainer, ButtonEmail, Privacity } from './style.js'
 
 export default {
   name: 'Newsletter',
   components: {
-    Background, Title, Description, InputEmail, EmailContainer, ButtonEmail, Privacity, Email
+    Background, Title, Description, InputEmail, EmailContainer, ButtonEmail, Privacity
   },
   data() {
     return {

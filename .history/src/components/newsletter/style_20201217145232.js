@@ -22,10 +22,11 @@ const Description = styled.div`
     font-size: 1em;
 `;
 
-const EmailContainer = styled.div`
+const Container = styled.div`
     margin: 0 auto;
     width: 50%;
     text-align: left;
+    display: flex;
 `;
 
 const InputEmail = styled.input`
@@ -56,14 +57,4 @@ const ButtonEmail = styled.button`
     border: none;
 `;
 
-const Privacity = styled.a`
-    color: #fff;
-    text-decoration: none;
-    font-size: .8em;
-`;
-
-const Email = styled.div`
-    display: flex;
-`;
-
-export { Background, Title, Description, InputEmail, EmailContainer, ButtonEmail, Privacity, Email };
+export { Background, Title, Description, InputEmail, Container, ButtonEmail };

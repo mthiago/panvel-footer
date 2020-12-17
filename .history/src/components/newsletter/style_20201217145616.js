@@ -26,6 +26,7 @@ const EmailContainer = styled.div`
     margin: 0 auto;
     width: 50%;
     text-align: left;
+    display: flex;
 `;
 
 const InputEmail = styled.input`
@@ -62,8 +63,4 @@ const Privacity = styled.a`
     font-size: .8em;
 `;
 
-const Email = styled.div`
-    display: flex;
-`;
-
-export { Background, Title, Description, InputEmail, EmailContainer, ButtonEmail, Privacity, Email };
+export { Background, Title, Description, InputEmail, EmailContainer, ButtonEmail, Privacity };

@@ -62,8 +62,4 @@ const Privacity = styled.a`
     font-size: .8em;
 `;
 
-const Email = styled.div`
-    display: flex;
-`;
-
-export { Background, Title, Description, InputEmail, EmailContainer, ButtonEmail, Privacity, Email };
+export { Background, Title, Description, InputEmail, EmailContainer, ButtonEmail, Privacity };
